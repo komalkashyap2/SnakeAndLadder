@@ -21,7 +21,7 @@ namespace PlayerRollDie
                 Console.ReadKey();
 
                 playerRandomNum = random.Next(1, 7);
-                Console.WriteLine("You rolled a " + playerRandomNum);
+                Console.WriteLine("Player rolled a " + playerRandomNum);
             }
 
             Console.ReadKey();
